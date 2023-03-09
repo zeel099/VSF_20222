@@ -1,0 +1,11 @@
+.background {
+    background: rgba(97, 82, 82, 0.7) url('Gate.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+
+.container {
+    margin-top: 6%;
+}

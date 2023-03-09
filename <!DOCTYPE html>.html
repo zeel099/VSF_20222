@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Open Sans";
+            color: #fff;
+        }
+        section{
+            background: url('bg2 (1).jpg');
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+        }
+        .form-container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 380px;
+            padding: 50px 30px;
+            border-radius: 10px;
+            box-shadow:7px 7px 60px #000;
+        }
+        h1{
+            color: #ffffff;
+            font-size: 2em;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .control input{
+            padding: 10px;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            color:#000;
+            background: #ddd;
+            outline: none;
+            border: none;
+            margin: 1em 0;
+
+        }         
+        .control .btn{
+            color: #fff;
+            text-transform: uppercase;
+            background: crimson;
+            opacity: .7;
+            transition:opacity .3s ease;
+        }
+        .btn:focus{
+            opacity: 1;
+        }
+        p{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            opacity: .7;
+        }
+        a:hover{
+            opacity: 1;
+        }
+    
+      
+  
+    </style>
+</head>
+<body>
+    <section>
+        <div class="form-container">
+                <h2>Registration Form</h2>
+            </div>
+            <form id="form">
+                <div>
+                    <label for="Name" >Name</label>
+                    <input type="text" placeholder="name" id="name" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="control">
+                    <label for="username">Enrollment No</label>
+                    <input type="text" placeholder="Enrollment no" id="text" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div><br>
+                <div class="control">
+                    <label for="department" style="color:black;">Department:</label>
+                    <select name="department" id="department">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="ECE">ECE</option>
+                    </select>
+                </div>
+    
+                <div class="control">
+                    <label for="username" >Date of Birth</label>
+                    <input type="date" placeholder="dd/mm/yy" id="date" required/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>   
+                </div>
+                <div class="control">
+                    <label for="hobbies"><h4>Gender</h4></label>
+                    <input type="radio" id="gender" name="gender" value="male" required/> Male      
+                    <input type="radio" id="gender" name="gender" value="female" required/> Female <br/>   
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i> 
+                </div>
+                <div class="control">
+                    <label for="hobbies" required><h4>Hobbies</h4></label>&nbsp;
+                    <input type="checkbox" id="hobby1" name="hobby1" >
+                    <label for="hobby1">Cricket</label>&nbsp;&nbsp;
+                    <input type="checkbox" id="hobby2" name="hobby2">
+                    <label for="hobby2">Singing</label><br>&nbsp;
+                    <input type="checkbox" id="vehicle3" name="hobby3">
+                    <label for="hobby3">Dancing</label>
+                    <input type="checkbox" id="hobby4" name="hobby4">
+                    <label for="hobby4">Painting</label><br> 
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i> 
+                </div>
+                <br>
+                <div class="control">
+                    <label for="resume" required><h4>Upload Resume</h4></label>&nbsp;
+                    <input type="file" id="myFile" required/> <br />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i> 
+                </div>
+                <hr>
+                <button>Submit</button>
+            </form>
+        </div>
+      
+        </div>
+    </section>
+</body>
+</html>

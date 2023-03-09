@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000813574672",
+    "project_id": "fir-practice-d8256",
+    "storage_bucket": "fir-practice-d8256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000813574672:android:eb9d1035040b3f33fae895",
+        "android_client_info": {
+          "package_name": "com.zeel.firebasepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000813574672-69npc4m63ucsbse6pmomonmf1is0rv54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHuVxtJgKK3KbDsj_OElRJ3OgM6G268cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000813574672-69npc4m63ucsbse6pmomonmf1is0rv54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
